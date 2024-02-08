@@ -1,5 +1,12 @@
+import Header from "./components/organism/Header";
+import "../src/global.css"
+
 function App() {
-  return <>Hello World</>;
+  return (
+    <>
+      <Header />
+    </>
+  );
 }
 
 export default App;
