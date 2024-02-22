@@ -1,10 +1,10 @@
-import Header from "./components/organism/Header";
 import "../src/global.css"
+import LandPage from "./components/template/LandPage";
 
 function App() {
   return (
     <>
-      <Header />
+      <LandPage/>
     </>
   );
 }

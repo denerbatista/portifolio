@@ -7,6 +7,6 @@ body {
   width: 100vw;
   min-height: 100vh;
   font-family: "Raleway";
-  background-color:  #090E16; /* Cor de fundo desejada */
-  ; /* Cor de fundo desejada */
+  background-color: #090e16;
+  cursor: url("src/assets/cursor.png"), auto;
 }

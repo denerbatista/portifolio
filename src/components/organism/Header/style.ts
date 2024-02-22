@@ -6,7 +6,8 @@ export const SHeader = styled.header`
   height: 10%;
   justify-content: center;
   color: white;
-  margin: 1rem;
+  position: fixed;
+  top: 0;
 `;
 
 export const SContainer = styled.div`
@@ -18,7 +19,7 @@ export const SContainer = styled.div`
   width: 80%;
   border-radius: 3rem;
 
-  img{
+  img {
     width: 25px;
   }
 `;
@@ -34,7 +35,7 @@ export const SNavigation = styled.nav`
   li {
     margin-right: 20px; /* Espaçamento entre os itens da lista */
     cursor: pointer;
-    &:hover{
+    &:hover {
       color: pink;
     }
   }
